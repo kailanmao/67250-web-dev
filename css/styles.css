@@ -1,0 +1,204 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    color:#D32326;
+    background-color:#FFFEEB;
+    margin:0;
+}
+
+h1 {
+    color:#D32326;
+}
+
+h2 {
+    color:rgb(87, 77, 77);
+    text-align:center;
+}
+
+p {
+    color:rgb(87, 77, 77);
+    font-size:1em;
+}
+
+ul {
+    color:rgb(87, 77, 77);
+}
+
+li {
+    color:rgb(87, 77, 77);
+}
+
+.topnav {
+    overflow:auto;
+    background-color: #ffd1d3;
+    width:100%;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #D32326;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 1.2em;
+    margin:0;
+}
+
+.homepage {
+    text-align:center;
+    font-size:1.1em;
+    width:50%;
+    float:none;
+    margin:auto;
+}
+
+.homepage p {
+    color:#D32326;
+}
+
+.homepage a {
+    color:rgb(92, 85, 85);
+}
+
+#container img {
+    float:left;
+    width:8%;
+    height:8%;
+    margin:10px;
+}
+
+#container {
+    font-size:2.3em;
+    text-align:center;
+    font-family:fantasy;
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+#frontpage-image img{
+    width:100%;
+    height:20%;
+}
+
+footer {
+    float:none;
+    margin:auto;
+}
+
+.citation {
+    color:#f58080;
+    font-size:.5em;
+}
+
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: #f8f187;
+    margin:auto;
+    width:52%;
+  }
+  
+  /* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin:auto;
+    color:#f86e6e;
+    font-size:2em;
+  }
+  
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #fede0c;
+  }
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: #fede0c;
+  }
+  
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    animation: fadeEffect 1s;
+  }
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+.menuitem img {
+    width:100%;
+    margin:auto;
+}
+
+.MenuTable {
+    width:100%;
+    font-size:1.5em;
+}
+
+.MenuTable th{
+    width:33%;
+}
+
+.activepage {
+    background-color:#ffe659;
+}
+
+#map {
+    width:50%;
+    height:50%;
+}
+
+#big {
+    text-align:center;
+    font-size:1.5em;
+}
+
+#gallery {
+    margin:auto;
+    background-color:#f58080;
+}
+
+.gallery {
+    height:500px;
+    margin:auto;
+}
+
+.gallery img {
+    padding: 10px;
+}
+
+.promotion {
+    height:50%;
+}
+
+.promotion h2 {
+    color:#8640dc;
+}
+
+.promotion p {
+    color:#8640dc;
+}
+
+.promotion img {
+    object-fit:contain;
+    width:40%;
+    float:left;
+}
+
+input {
+    color:rgb(79, 79, 79);
+}
